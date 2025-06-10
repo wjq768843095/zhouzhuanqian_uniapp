@@ -130,19 +130,15 @@
 			
 			// 跳转到修改密码
 			goToChangePassword() {
-				uni.showModal({
-					title: '修改密码',
-					content: '密码修改功能正在开发中',
-					showCancel: false
+				uni.navigateTo({
+					url: '/pages/profile/change-password'
 				})
 			},
-			
+
 			// 跳转到修改签约密码
 			goToChangeSignPassword() {
-				uni.showModal({
-					title: '修改签约密码',
-					content: '签约密码修改功能正在开发中',
-					showCancel: false
+				uni.navigateTo({
+					url: '/pages/profile/change-sign-password'
 				})
 			},
 			

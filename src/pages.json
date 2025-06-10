@@ -49,15 +49,45 @@
 			}
 		},
 		{
+			"path": "pages/auth/realname",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/agreement/user-agreement",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/agreement/privacy-policy",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
 			"path": "pages/borrow/create",
 			"style": {
 				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/profile/change-password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/profile/change-sign-password",
+			"style": {
+				"navigationBarTitleText": "修改签约密码"
 			}
 		}
 	],
 	"tabBar": {
 		"color": "#7A7E83",
-		"selectedColor": "#3cc51f",
+		"selectedColor": "#667eea",
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [
